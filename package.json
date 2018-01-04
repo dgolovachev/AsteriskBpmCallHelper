@@ -1,0 +1,21 @@
+{
+  "name": "asterisk-app",
+  "version": "1.0.0",
+  "description": "asterisk-bpm service",
+  "main": "app.js",
+  "scripts": {
+    "install-windows-service": "winser -i",
+    "uninstall-windows-service": "winser -r"
+  },
+  "author": "d.a.golovachev",
+  "license": "ISC",
+  "dependencies": {
+    "agi-node": "0.0.7",
+    "asterisk-manager": "^0.1.16",
+    "express": "^4.15.3",
+    "moment": "^2.18.1",
+    "mssql": "^4.0.4",
+    "winser": "^1.0.2",
+    "winston": "^2.3.1"
+  }
+}
